@@ -1,0 +1,39 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+footer {
+    position: relative;
+    bottom: 10px;
+    color: #fff;
+    padding: 2px 0;
+}
+
+input {
+    background-color: grey;
+    color: #fff;
+    height: 2rem;
+    border-radius: 2rem;
+}
+
+input:hover {
+    letter-spacing: 0.05em;
+    color: cyan;
+    background-color: #b10a12a5;
+}
+
+.head {
+    color: #F161A3;
+}
